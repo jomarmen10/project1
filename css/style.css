@@ -1,0 +1,37 @@
+.container {
+  /* position: relative; */
+}
+
+.video-container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.black-background-overlay {
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  z-index: 15;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+video {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  pointer-events: none;
+  z-index: -15;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
